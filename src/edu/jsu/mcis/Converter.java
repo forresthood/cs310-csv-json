@@ -83,7 +83,6 @@ public class Converter {
             records.add(jsonObject);
             JSONArray jsonRowHeaders = new JSONArray();
             JSONArray jsonData = new JSONArray();
-            //JSONArray jsonDataList = new JSONArray();
             
             while(iterator.hasNext()){
                 record = iterator.next();
